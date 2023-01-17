@@ -1,6 +1,10 @@
 "use strict";
+<<<<<<< HEAD
 /*1 */
 /*const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?','');
+=======
+let numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?','');
+>>>>>>> 52622918fea8fb23a5def598030b84cf68f6a6c9
 console.log(numberOfFilms);
 
 
@@ -9,13 +13,18 @@ const personalMovieDB ={
      movies:{},
      actors:{},
      genres:[],
+<<<<<<< HEAD
      privat:false,
+=======
+     privat:false
+>>>>>>> 52622918fea8fb23a5def598030b84cf68f6a6c9
 };
 const watchFilms = prompt('Один из последних просмотренных фильмов?',''),
       watchFilms2 = prompt('Насколько оцените его?',''),
       watchFilms3 = prompt('Один из последних просмотренных фильмов?',''),
       watchFilms4 = prompt('Насколько оцените его?','');
 
+<<<<<<< HEAD
       personalMovieDB.movies[watchFilms]= watchFilms2;
 personalMovieDB.movies[watchFilms3]= watchFilms4;
 console.log(personalMovieDB);
@@ -253,3 +262,9 @@ console.log(personalMovieDB);
 //3
 
 
+=======
+personalMovieDB.movies[watchFilms]= watchFilms2;
+personalMovieDB.movies[watchFilms3]= watchFilms4;
+
+console.log(personalMovieDB);
+>>>>>>> 52622918fea8fb23a5def598030b84cf68f6a6c9
